@@ -9,6 +9,37 @@
         <title>National Signs and Designs - <%=page_title%></title>
     </head>
     <body>
-		<%=yield%>
+    	<div id="menu">
+    		<ul>
+    			
+    			<%menu_items.each do |link|%>
+					<li><%=link_to link[:text], link[:address], :class => link[:class]%></li>	
+				<%end%>
+    		</ul>
+    	</div>
+		<div id="logo">
+			<%=image_tag 'logo.png', :size => "456x52", :alt => "Logo: National Signs and Designs - your imagination is our creation" %>
+		</div>
+		
+		<div id="content">
+			<div class="contentBox">
+				content
+			</div>
+			<div class="accentContentBox">
+				accent
+			</div>
+			
+			<div class="contentBox smallBox">
+				
+			</div>
+			<div class="contentBox smallBox">
+				
+			</div>
+			<div class="contentBox smallBox">
+				
+			</div>
+			<%=yield%>
+		</div>
+
     </body>
 </html>
