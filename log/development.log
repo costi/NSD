@@ -1,0 +1,9 @@
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-24 20:29:38) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
