@@ -42,6 +42,11 @@
 	
 }
 
+ul {
+	margin-top: 1px;
+	margin-bottom: 7px;
+}
+
 #menu {
 	position: fixed;
 	height: 42px;
@@ -55,7 +60,7 @@
 #menu ul{
 	margin: 0 auto;
 	padding: 0;
-	width: 800px;
+	width: 900px;
 	list-style: none;
 }
 
@@ -81,7 +86,7 @@
 }
 
 #logo {
-	width: 800px;
+	width: 900px;
 	margin: 0 auto;
 	padding: 10px 0 10px 0;
 }
@@ -89,7 +94,7 @@
 
 #content {
 	background: #fff;
-	width: 800px;
+	width: 900px;
 	min-height: 600px;
 	margin: 0 auto;
 	border-radius: 5px;
@@ -110,6 +115,15 @@
 
 .contentBox {
 	background: #f5f5f5;
+	color: #333333;
+}
+
+.contentBox h2 {
+	margin: 0;
+}
+
+.accentText {
+	color: #bb0404;
 }
 
 .accentContentBox{
@@ -117,22 +131,89 @@
 	color: #e0dfdf;
 }
 
+.accentContentBox h2 {
+	background: white;
+	padding: 5px 5px 5px 5px;
+	color: #991004;
+	font-weight: normal;
+	font-size: 18px;
+	margin: 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;			
+}
+.accentContentBox h2 .firstWord {
+	color: black;
+}
+
+.accentContentBox img {
+	border: 1px solid black;
+}
+
+.accentContentBox .accentText { /*Text that should stand out in the accent text*/
+	color: white;	
+}
+
+.accentSmallBox {
+	width: 276px;
+	float: left;
+	margin: 5px 0 5px 0;
+	min-height: 290px;
+}
+
+
 .smallBox {
-	width: 238px;
-	min-height: 250px;
+	width: 272px;
+	min-height: 270px;
 	float: left;
 }
 
-.accentText {
-	color: #bb0404;
-}
 
 h1 {
 	padding: 3px 0px 3px 0px;
-	margin: 0;
+	margin 0;
+	font-weight: normal;
 }
 
 p {
-	padding: 3px 5px 3px 5px;
+	padding: 1px 1px 1px 1px;
+	margin-bottom: 0;
 }
+
+.button {
+	padding: 7px 6px 7px 6px;
+	background: #ab1408 url(/images/accent_button_bg.png) repeat-x;
+	color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;		
+}
+
+.button a {
+	background: url(/images/button_arrow.png) left no-repeat;
+	padding-left: 20px;
+	color: white;
+	text-decoration: none;	
+}
+
+
+
+/* Coupon styles */
+
+.coupon {
+	margin: 0 auto;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    border: 3px dashed #ccc; 
+}
+
+.coupon h1{
+	margin: 0;	
+}
+
+.coupon .percent {
+	font-size: 20px;
+}
+
 </style></html>

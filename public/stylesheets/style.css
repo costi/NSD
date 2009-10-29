@@ -158,6 +158,32 @@ p {
 	background: url(/images/button_arrow.png) left no-repeat;
 	padding-left: 20px;
 	color: white;
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
+
+
+
+/* Coupon styles */
+
+.coupon {
+	margin: 0 auto;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    border: 3px dashed #ccc; 
+	font-weight: bolder;
+}
+
+.coupon h1{
+	margin: 0;	
+	background: #e8e8e8;
+}
+
+.coupon .percent {
+	font-size: 40px;
+}
+
+.coupon .disclaimer {
+	font-size : 10px;
+}
+
