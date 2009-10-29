@@ -784,3 +784,414 @@ Processing SiteController#index (for 127.0.0.1 at 2009-09-25 00:41:04) [GET]
 Rendering template within layouts/application
 Rendering site/index
 Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:23:27) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 484ms (View: 484, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:23:53) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:27:36) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 171ms (View: 156, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:27:39) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:28:31) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:43:27) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:44:01) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:45:22) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:45:24) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:45:51) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:46:14) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:46:20) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:46:30) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:46:52) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:47:11) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:47:20) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:47:38) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:48:54) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:49:49) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:50:30) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:51:32) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:52:03) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:53:08) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:53:14) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:53:29) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:53:37) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:53:42) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:53:46) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:54:02) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:54:07) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:54:09) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:54:12) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:54:20) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:54:24) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:54:27) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:55:28) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:58:07) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-05 23:59:09) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:09:53) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:10:14) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:10:34) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:11:55) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:13:21) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:14:01) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-06 00:14:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/button_arrow.png" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:14:51) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-06 00:14:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/button_arrow.png" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:15:16) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-06 00:15:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/button_arrow.png" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:15:25) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-06 00:15:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/button_arrow.png" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:15:49) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-06 00:15:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/button_arrow.png" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:16:00) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-06 00:16:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/button_arrow.png" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:16:28) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-06 00:16:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/button_arrow.png" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#coupons (for 127.0.0.1 at 2009-10-06 00:16:33) [GET]
+
+ActionController::UnknownAction (No action responded to coupons. Actions: ):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:17:14) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-06 00:17:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/button_arrow.png" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:17:26) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:17:38) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:17:46) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-06 00:17:52) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 156ms (View: 140, DB: 0) | 200 OK [http://localhost/]
