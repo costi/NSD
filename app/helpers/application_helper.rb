@@ -12,11 +12,11 @@ module ApplicationHelper
   def menu_items
     [
       { :address => '/', :text => 'HOME' },
-      { :address => '/page2.html', :text => 'page 2' },
-      { :address => '/page3.html', :text => 'page 3' },
-      { :address => '/page4.html', :text => 'page 4' },
-      { :address => '/page5.html', :text => 'page 5' },
-      { :address => '/page6.html', :text => 'CONTACT US' }
+      { :address => '/products_services.html', :text => 'PRODUCTS &amp; SERVICES' },
+      { :address => '/send_file.html', :text => 'SEND A FILE' },
+      { :address => '/aboutus.html', :text => 'ABOUT US' },
+      { :address => '/location.html', :text => 'LOCATION' },
+      { :address => '/contact.html', :text => 'CONTACT US' }
     ].map do |link|   # this adds the class opened to the menu item that is active
       link[:class] = (request.path =~ /^#{link[:address]}$/) ? 'opened' : 'notOpened'
       link

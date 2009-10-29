@@ -1,1 +1,131 @@
-The index page
+	<div class="box contentBox">
+		<h1>Custom <span class="accentText">Banners &amp; Signs</span></h1>
+		<p>
+			Improve your business's visibility with custom banners and signs from our sign company in Chicago, Illinois. 
+			For more than 23 years, National Signs and Designs has been specializing in billboard creations, custom banners, 
+			and real estate signs at affordable prices. 
+		</p>
+		<p>
+			Contact us today by calling (312) 997-2050 for more information about utilizing our top-quality signage services.
+		</p>
+		<p>
+			<span class="button"><%= link_to 'Special Offers / Coupons', :action => 'coupons' %></span>
+			<span class="button"><%= link_to 'Find Our Location', :action => 'location' %></span>
+		</p>
+	</div>
+	
+	<div class="box accentContentBox">
+		<div class="accentSmallBox" style="padding-right: 10px; border-right: 1px solid white;">
+			<h2><span class="firstWord">Billboard</span> Creation Services</h2>
+			<p>
+				Purchase fantastic billboards made out of special materials that will draw 
+				prospective customers to your store. Call today to begin advertising with custom billboards.
+			</p>
+			<%=image_tag 'fantastic_billboards.jpeg', :size => '131x90', :alt => "Factastic billboards example"%>
+			<%=image_tag 'raised_letters_sign.jpeg', :size => '131x90', :alt => "Raised lettering sign: Brides"%>
+			<p>
+					<strong class="accentText">We build signs to suit your specifications</strong> 
+					and will help you create wonderful 
+					advertising and promotional materials. Visit our shop today to inquire about our creations.
+			</p>
+		</div>
+		<div class="accentSmallBox" style="padding-left: 10px;  padding-right: 10px; border-right: 1px solid white;">
+			<h2><span class="firstWord">Fantastic</span> Realty Signs</h2>
+			<p>
+				If you are in real estate and want an eye-catching, customized sign, 
+				our sign company can assist you. 
+			</p> 
+			<div style="text-align: center">
+				<%=image_tag 'new_homes_realty_sign.jpeg', :size => '166x88', :alt => "Realty Sign for new homes"%>
+			</div>
+			<p>
+				<strong class="accentText">We have &quot;for sale&quot; and &quot;sold&quot; signs available</strong>, 
+				in addition to A-frames, WindMasters™, and fit-to-suit MDO boards.
+			</p>
+		</div>
+		<div class="accentSmallBox" style="padding-left: 10px;">
+			<h2><span class="firstWord">What's</span> your sign?</h2>
+			<div style="float: left; margin: 19px 5px 5px 5px;">
+				<%=image_tag 'vertical_billboard.jpeg'%>
+			</div>
+			<div>
+				<p>
+					Create wonderful custom vinyl and mesh banners at competitive prices. 
+					We offer large and small format printing that is perfect for business advertising, 
+					grand openings, special events, street fairs, or marathons.
+				</p>
+				<p>
+					<strong>
+						E-mail or call National Signs and Design at (312) 997-2050 for all of your custom banners and signs.
+					</strong>
+				</p> 
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+	
+	<div class="box contentBox smallBox">
+			<h2>Our Staff</h2>
+			<%=image_tag 'customer_service_nsd.jpeg', :style => 'float: left; margin: 19px 5px 0 0;'%>
+			<p>
+				Every person on our staff is committed to providing excellent customer service and 
+				producing high-quality products and services. As you work with us in the future, 
+				we're confident that you'll find this to be true.
+			</p>
+			
+			<p>
+				<%=mail_to 'artwork@nationalsignsanddesign.com', 'E-mail'%> 
+				or <strong class="accentText">call National Signs and Design at (312) 997-2050</strong>
+				for all of your custom banners and signs.
+			</p>
+	</div>
+	<div class="box contentBox smallBox">
+		<h2>Our Clients</h2>
+		<p>
+			At National Signs and Design <strong>we service clients both large and small</strong>. 
+			Following is a short list of some of our more notable clients: 
+		</p>
+		<ul>
+			<li>Baird and Warner</li>
+			<li>@ Properties</li>
+			<li>Bank of America</li>
+		</ul>
+		
+		We have built signs for national events:
+			<ul>
+				<li>Chicago Marathon</li>
+				<li>Shamrock Shuffle</li>
+				<li>Green Tie</li>
+			</ul>
+		<p>
+			<strong>Membership:</strong><br />
+			Local Chamber of Commerce
+		</p>
+	</div>
+	<div class="box contentBox smallBox">
+		<h2>Our Location</h2>
+		<p>
+			We are located close do the Chicago Downtown, in the Kinzie Industrial Corridor.
+		</p>
+		<p> 
+			Our address:<br />
+			<%link_to :action => 'location' do %>
+			2037 W. Carroll Suite C-118<br />
+			Chicago, IL 60612
+			<% end%>
+		</p>
+		
+		<p>
+			Our hours of operation are:<br />
+			<strong class="accentText">				
+			Monday – Friday<br />
+			7:30 a.m. – 4:30 p.m.<br />
+			</strong>
+			Weekends by Appointment Only<br />
+			<%link_to :action => 'location' do %>
+				Visit our shop today to inquire about our creations.
+			<%end%>
+		</p>
+	</div>
+	
+	<div style="clear: both;"></div>
