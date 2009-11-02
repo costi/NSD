@@ -66,6 +66,7 @@ ul {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;	
 	padding: 7px 7px 7px 7px;
+	margin-bottom: 20px;
 }
 
 .box {
@@ -187,3 +188,23 @@ p {
 	font-size : 10px;
 }
 
+#footer {
+	border-top: solid 9px #c41a0c;
+	background-color: #262626;
+	padding: 5px 5px 10px 5px;
+	color: white;
+}
+
+#footer ul {
+	list-style: none;
+}
+
+#footer li {
+	float: left;
+	padding: 0px 3px 0px 3px;
+}
+
+#footer a {
+	color: white;
+	text-decoration: none;
+}
