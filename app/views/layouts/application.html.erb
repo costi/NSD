@@ -36,14 +36,10 @@
 					2037 W. Carroll Suite C-118<br />
 					Chicago, IL 60612<br />
 				</div>
-	    		<div style="width: 600px; margin: 0 auto; ">
-					<ul>
-		    			
-		    			<%menu_items.each do |link|%>
-							<li><%=link_to link[:text].humanize, link[:address], :class => link[:class]%></li>	
-						<%end%>
-		    		</ul>
-				
+	    		<div style="width: 500px; margin: 0 auto;">
+					<div style="float: left;">
+	    				<%= menu_items.map do |link|link_to link[:text].humanize, link[:address], :class => link[:class] end.join(' | ') %>
+					</div>
 				</div>
 
 				<div style="100px; float: right; text-align: right;">

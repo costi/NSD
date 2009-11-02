@@ -195,15 +195,6 @@ p {
 	color: white;
 }
 
-#footer ul {
-	list-style: none;
-}
-
-#footer li {
-	float: left;
-	padding: 0px 3px 0px 3px;
-}
-
 #footer a {
 	color: white;
 	text-decoration: none;
