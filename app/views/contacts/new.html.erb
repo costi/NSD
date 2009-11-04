@@ -1,39 +1,43 @@
-<h1>New contact</h1>
 
-<% form_for(@contact) do |f| %>
-  <%= f.error_messages %>
+<%=render 'common' %>
 
-  <p>
-    <%= f.label :first_name %><br />
-    <%= f.text_field :first_name %>
-  </p>
-  <p>
-    <%= f.label :last_name %><br />
-    <%= f.text_field :last_name %>
-  </p>
-  <p>
-    <%= f.label :subject %><br />
-    <%= f.text_field :subject %>
-  </p>
-  <p>
-    <%= f.label :phone_number %><br />
-    <%= f.text_field :phone_number %>
-  </p>
-  <p>
-    <%= f.label :email_address %><br />
-    <%= f.text_field :email_address %>
-  </p>
-  <p>
-    <%= f.label :message %><br />
-    <%= f.text_field :message %>
-  </p>
-  <p>
-    <%= f.label :referer %><br />
-    <%= f.text_field :referer %>
-  </p>
-  <p>
-    <%= f.submit 'Create' %>
-  </p>
-<% end %>
+<%content_for :contentCol2 do%>
+	<h1>call back request</h1>
+	<p>
+		Simply fill out the fields below and submit your call back request. 
+		We will contact you within 24 hours during our regular business days, Monday-Saturday.
+	</p>
+	<% form_for(@contact) do |f| %>
+	  <%= f.error_messages %>
+	
+		<div id="contactFirstName">
+				<%= f.text_field :first_name, :size => 15 %>
 
-<%= link_to 'Back', contacts_path %>
+				<div><%= f.label :first_name %></div>
+		</div>
+		<div id="contactLastName">
+				<%= f.text_field :last_name, :size => 15 %>
+				<div><%= f.label :last_name %></div>
+		</div>
+		<div id="contactSubject">
+				<%= f.text_field :subject, :size => 37 %>
+				<div><%= f.label :subject %></div>
+		</div>
+		<div id="contactPhoneNumber">
+				<%= f.text_field :phone_number, :size => 15 %>
+				<div><%= f.label :phone_number %></div>
+		</div>
+		<div id="contactEmailAddress">
+				<%= f.text_field :email_address, :size => 15 %>
+				<div><%= f.label :email_address %></div>
+		</div>
+		<div id="contactMessage">
+			    <%= f.text_area :message, :rows => 3, :cols => 28%>
+				<div><%= f.label :message, 'message / best time(s) to contact you (optional)' %></div>
+		</div>
+		<div id="contactSend">
+			<%= f.submit 'Send' %>
+		</div>
+	    
+	<% end %>
+<%end %>
