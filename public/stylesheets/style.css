@@ -130,14 +130,14 @@ ul {
 
 .smallBox {
 	width: 272px;
-	min-height: 270px;
+	min-height: 300px;
 	float: left;
 }
 
 
 h1 {
 	padding: 3px 0px 3px 0px;
-	margin 0;
+	margin: 0;
 	font-weight: normal;
 }
 
