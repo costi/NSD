@@ -1,6 +1,6 @@
 class UploadsController < ApplicationController
   before_filter :authenticate, :only => [:edit, :index, :update, :download]
-
+  caches_page :new
   
   def status
     @upload = Upload.find(params[:id])
