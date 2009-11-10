@@ -1,0 +1,14 @@
+<%if @upload.status%>
+	<p style="color: green;">
+		The file was uploaded successfully. Thank you. 
+	</p>
+	Our website sends us an automatic email when each file upload is finished.
+<%else%>
+	<p style="color: red;">
+		The file didn't upload successfully.
+	</p>
+<%end%>
+
+	
+	
+	<p><%=link_to "Upload another file", new_upload_path %></p>

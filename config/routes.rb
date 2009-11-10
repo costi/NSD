@@ -1,5 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :uploads
+  map.resources :uploads, :member => {:download => :get, :status => :get}
+  map.send_file 'send_file.html', :controller => 'uploads', :action => 'new'
 
   map.resources :contacts
   map.root :controller => "site"

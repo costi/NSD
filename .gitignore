@@ -2,5 +2,5 @@ log/*.log
 db/*.sqlite3
 tmp/**/*
 tmp/restart.txt
+uploads/*
 .tmp*
-

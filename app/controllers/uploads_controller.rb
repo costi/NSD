@@ -1,4 +1,16 @@
 class UploadsController < ApplicationController
+  before_filter :authenticate, :only => [:edit, :index, :update, :download]
+
+  
+  def status
+    @upload = Upload.find(params[:id])
+  end
+  
+  def download
+    @upload = Upload.find(params[:id])
+    send_file(@upload.filename_full_path, :type => @upload.content_type, :filename => @upload.original_filename)
+  end
+  
   # GET /uploads
   # GET /uploads.xml
   def index
@@ -45,7 +57,7 @@ class UploadsController < ApplicationController
     respond_to do |format|
       if @upload.save
         flash[:notice] = 'Upload was successfully created.'
-        format.html { redirect_to(@upload) }
+        format.html { redirect_to(status_upload_url(@upload)) }
         format.xml  { render :xml => @upload, :status => :created, :location => @upload }
       else
         format.html { render :action => "new" }
