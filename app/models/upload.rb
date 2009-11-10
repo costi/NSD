@@ -19,6 +19,7 @@ class Upload < ActiveRecord::Base
     else
       File.open(self.filename_full_path, "wb") { |f| f.write(@uploaded_file.read) }
     end
+    UploadNotifier.deliver_notify_webmaster(self)
   end
   
   def after_destroy
