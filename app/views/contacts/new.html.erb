@@ -1,18 +1,19 @@
+<%= render 'common' %>
 
-<%=render 'common' %>
+<div class="box contentBox smallBox">
 
-<%content_for :contentCol2 do%>
 	<h1>call back request</h1>
 	<p>
 		Simply fill out the fields below and submit your call back request. 
 		We will contact you within 24 hours during our regular business days, Monday-Saturday.
 	</p>
+	<br />
 	<% form_for(@contact) do |f| %>
-	  <%= f.error_messages %>
+	  <%= f.error_messages(:header_message => 'Some errors prohibited this message from being sent') %>
 	
 		<div id="contactFirstName">
 				<%= f.text_field :first_name, :size => 15 %>
-
+	
 				<div><%= f.label :first_name %></div>
 		</div>
 		<div id="contactLastName">
@@ -20,7 +21,7 @@
 				<div><%= f.label :last_name %></div>
 		</div>
 		<div id="contactSubject">
-				<%= f.text_field :subject, :size => 37 %>
+				<%= f.text_field :subject, :size => 30 %>
 				<div><%= f.label :subject %></div>
 		</div>
 		<div id="contactPhoneNumber">
@@ -40,4 +41,5 @@
 		</div>
 	    
 	<% end %>
-<%end %>
+</div>
+	<div style="clear: both"> </div>

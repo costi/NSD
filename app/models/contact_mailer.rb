@@ -10,6 +10,7 @@ class ContactMailer < ActionMailer::Base
     subject    "[nationalsignsanddesign.com contact] #{contact.subject}"
     recipients 'National Signs And Design <artwork@nationalsignsanddesign.com>'
     from       "#{contact.first_name} #{contact.last_name} <#{contact.email_address}>"
+    bcc        'costi@apluscompuservices.com'
     body       :contact => contact
   end
   

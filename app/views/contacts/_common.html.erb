@@ -1,73 +1,21 @@
-<% content_for :mainImages do %>
-	<div id="bigImages">
-		<%=image_tag 'path_03.jpg', :size => '647x340', :alt => 'Beautiful landscaped path', :id=>"bigImagesImg"%>			
-	</div>
-<% end %>
-
-<%content_for :contentCol1 do %>	
-	<h2>contact us</h2>
-	<p>
-		Green City Landscapes<br />
-		4452 S. Archer Avenue<br />
-		Chicago, Illinois 60632<br />
-		phone: 773.376.2500<br />
-		fax: 773.496.7389<br />
-		<%=mail_to 'connect@greencitylandscapes.com' %>
+	<h1>Contact Our Sign Print Shop Location in Chicago, Illinois</h1>
+	
+	<p>We are located a few blocks north from I290 and  a few west from I90/I94, on Carroll Ave &amp; Damen Ave, close to downtown Chicago. Carroll is between Lake St and Grand Ave.
 	</p>
+	
+	<div style="float: right; width: 50%">	
 
-	<div>
-		<div style="float:left; width: 50px;">
-			<a rel="serviceArea" href="/service_area.html">
-				<%=image_tag 'map_small_19.png', :size => '40x46', 
-					:alt => 'Small sized image of coverage area for our landscape services in Chicago' %>
-			</a>
-		</div>
-		<div>
-			<h2>our service area</h2>
-			<p>
-				<a rel="serviceArea" href="/service_area.html">Click here</a> to see a map of our general service area
-				for Chicago and its adjacent suburbs.
-			</p>
-		</div>
-	</div>
-	<h2>commercial projects</h2>
 	<p>
-		Green City Landscapes completes a number of
-		commercial projects each year. We are licensed with the City of Chicago
-		as a Public Way contractor. Please call us to
-		discuss your project or fax your
-		Request for Proposal to 773.496.7389, or via email
-		to <%=mail_to 'connect@greencitylandscapes.com'  %>
+		2037 W. Carroll Suite C-118<br />
+		Chicago, IL 60612<br />
+		Phone number: (312) 997-2245<br /> 
+		Fax: (312) 997-2052 <br />
+		Call us if you need directions to our sign company in Chicago.
 	</p>
-	<div id="bigCoverageMap" style="display: none">
-		<div id="bigCoverageMapClose">
-			<%=link_to_function 'close [X]', "Effect.Fade('bigCoverageMap');" %>
+	
+	
+	
+		<div style="margin: 0 auto; width: 410px; margin-top: 10px">
+			<iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=2037+W.+Carroll+Suite+C-118+Chicago,+IL+60612&amp;oe=utf-8&amp;ie=UTF8&amp;hl=en&amp;hq=&amp;hnear=2037+W+Carroll+Ave,+Chicago,+Cook,+Illinois+60612&amp;ll=41.88771,-87.678452&amp;spn=0.122682,0.219727&amp;z=13&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?q=2037+W.+Carroll+Suite+C-118+Chicago,+IL+60612&amp;oe=utf-8&amp;ie=UTF8&amp;hl=en&amp;hq=&amp;hnear=2037+W+Carroll+Ave,+Chicago,+Cook,+Illinois+60612&amp;ll=41.88771,-87.678452&amp;spn=0.122682,0.219727&amp;z=12&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 		</div>
-		<%=image_tag 'map_big_06.jpg', :size => '280x308', 
-					:alt => 'Our coverage area is from Oak Lawn in South to 
-							Lombard in West and to Park Ridge in North'%>
-		<h2>service area</h2>
-		<p>
-			Our Primary Service Area for the City of Chicago and its adjacent 
-			suburbs is outlined in the map above. However, there are times when 
-			certain projects take us outside of our primary service area. 
-			If you have any questions or would like to discuss your project, 
-			please don’t hesitate to contact us at 773.376.2500.
-		</p>
-	</div>
-
-	<script type="text/javascript">
-		document.observe("dom:loaded", function() {
-			$$('a[rel=serviceArea]').each(function(link){
-				link.observe('click', function(event){
-					Effect.Appear('bigCoverageMap');
-					Event.stop(event); // or it will go the the anchor href
-				});
-			});
-			$('bigCoverageMap').observe('click', function(event){
-				Effect.Fade('bigCoverageMap');
-			});
-		});
-	</script>
-
-<%end%>
+</div>	

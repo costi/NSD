@@ -16,7 +16,7 @@ module ApplicationHelper
       { :address => '/send_file.html', :text => 'SEND A FILE' },
       { :address => '/aboutus.html', :text => 'ABOUT US' },
       { :address => '/location.html', :text => 'LOCATION' },
-      { :address => '/contact.html', :text => 'CONTACT US' }
+      { :address => contact_us_path, :text => 'CONTACT US' }
     ].map do |link|   # this adds the class opened to the menu item that is active
       link[:class] = (request.path =~ /^#{link[:address]}$/) ? 'opened' : 'notOpened'
       link

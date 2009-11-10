@@ -199,3 +199,77 @@ p {
 	color: white;
 	text-decoration: none;
 }
+
+
+
+/* Contact */
+
+form .fieldWithErrors input {
+	border-color: red !important;
+	background-color: #FFE5E5 !important;
+}
+
+form .fieldWithErrors label {
+	color: red;
+}
+
+#contactFirstName input, #contactLastName input, #contactPhoneNumber input, #contactEmailAddress input {
+	width: 130px;
+}
+
+#contactFirstName, #contactLastName, #contactEmailAddress, #contactPhoneNumber  {
+	float: left;
+	width: 135px;
+	margin-bottom: 11px;
+}
+
+#contactSubject {
+	margin-bottom: 11px;
+}
+
+#contactLastName div, #contactLastName input, #contactEmailAddress div, #contactEmailAddress input{
+	margin-left: 5px;
+	clear: both;
+}
+
+#contactSubject input, #contactMessage textarea {
+	width: 270px;
+}
+
+#contactSend {
+	width: 270px;
+	text-align: right;
+} 
+
+
+
+#errorExplanation {
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+ 

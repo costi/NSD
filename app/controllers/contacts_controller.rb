@@ -1,4 +1,7 @@
 class ContactsController < ApplicationController
+  
+  before_filter :authenticate, :only => [:edit, :index, :update]
+  
   # GET /contacts
   # GET /contacts.xml
   def index
