@@ -28,6 +28,7 @@ class ContactsController < ApplicationController
   # GET /contacts/new
   # GET /contacts/new.xml
   def new
+    @title = "Contact our sign company in Chicago. We make banners, real estate signs, graphic and lettering and a lot of other products."
     @contact = Contact.new
     @contact.subject = "Please contact me to discuss my project"
   end

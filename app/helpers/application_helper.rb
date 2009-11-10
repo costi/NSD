@@ -1,11 +1,11 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
   def page_title
-    current_link = menu_items.find{|link| request.path =~ /#{link[:address]}/}
-    title = ""
-    title += current_link[:text] unless current_link.nil?      
-    title += " - " + h(@title) if @title # controllers can set this variable
-    title
+    if @title # controllers can set this variable
+      @title
+    else
+      controller.action_name.humanize  
+    end
   end
   
 
