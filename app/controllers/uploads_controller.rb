@@ -36,7 +36,7 @@ class UploadsController < ApplicationController
   # GET /uploads/new
   # GET /uploads/new.xml
   def new
-    @title = "Upload a file for our sign & design company in Chicago"
+    @title = "Upload a file for our sign &amp; design company in Chicago"
     @upload = Upload.new
 
     respond_to do |format|

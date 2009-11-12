@@ -14,11 +14,11 @@ class SiteController < ApplicationController
   end
   
   def products_services
-    @title = "We make best quality signs, custom signage, banners & stands and promotional items"
+    @title = "We make best quality signs, custom signage, banners &amp; stands and promotional items"
   end
   
   def aboutus
-    @title = "A family owned sign company based in Chicago, IL, specialized in billboards, customer banners & signs"
+    @title = "A family owned sign company based in Chicago, IL, specialized in billboards, customer banners &amp; signs"
   end
   
 end

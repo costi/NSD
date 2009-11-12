@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 42px 0 0 0;
 	font: 10pt Arial, Helvetica, sans-serif;
-	background: url(/images/top_gradient.png) #e8e8e8 repeat-x 0px 20px;
+	background: url(/images/top_gradient.png) #e8e8e8 repeat-x 0px 10px;
 	min-height: 800px;	
 	
 }
@@ -55,6 +55,7 @@ ul {
 	margin: 0 auto;
 	padding: 10px 0 10px 0;
 	height: 60px;
+	background-color: transparent;
 }
 
 #logo > img {
@@ -70,14 +71,14 @@ ul {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;	
-	padding: 7px 7px 7px 7px;
+	padding: 1px 1px 1px 1px;
 	margin-bottom: 20px;
 }
 
 .box {
 	border: 1px solid #e7e7e7;
 	padding: 9px 9px 9px 9px;
-	margin: 4px 4px 4px 4px;
+	margin: 10px 10px 10px 10px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;		
@@ -90,6 +91,8 @@ ul {
 
 .contentBox h2 {
 	margin: 0;
+	font-size: 20px;
+	font-weight: normal; 
 }
 
 .accentText {
@@ -125,7 +128,7 @@ ul {
 }
 
 .accentSmallBox {
-	width: 276px;
+	width: 270px;
 	float: left;
 	margin: 5px 0 5px 0;
 	min-height: 290px;
@@ -133,9 +136,14 @@ ul {
 
 
 .smallBox {
-	width: 272px;
+	width: 266px;
 	min-height: 300px;
 	float: left;
+	margin: 0px 5px 0px 5px;  /* Floats don't collaps margins so I have to make the margins half */
+}
+
+.topContent {
+	margin: 10px 10px 20px 10px; /* For the content that sits on top of the page on contacts#new, uploads#new */
 }
 
 
@@ -248,6 +256,7 @@ form .fieldWithErrors label {
 #new_click_to_talk {
 	width: 360px;
 	float: right;
+	background-color: transparent;
 } 
 #new_click_to_talk label {
 	font-weight: bold;
