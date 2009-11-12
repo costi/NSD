@@ -1,0 +1,15 @@
+<% @click_to_talk ||= ClickToTalk.new -%>
+<%remote_form_for @click_to_talk, :html => {:id => 'new_click_to_talk', :class => "accentContentBox"} do |ctt|%>
+	<table>
+		<tr>
+			<td><%=ctt.label :phone_number, 'Your Number' %></td>
+			<td><%=ctt.text_field :phone_number, :size => 10, :class => 'input_mask mask_phone'%></td> 
+			<td><%=ctt.label :phone_ext, "Ext."%>
+			<td></ts><%=ctt.text_field :phone_ext, :size => 3%></td>			
+		</tr>
+		<tr>				
+			<td><%=ctt.label :when, "Call me" %></td>
+			<td colspan="3"><%=ctt.select :when, ClickToTalk::WHEN_OPTIONS %><%=ctt.submit 'Talk by Phone' %></td>
+		</tr>
+	</table>
+<%end%>

@@ -54,6 +54,11 @@ ul {
 	width: 900px;
 	margin: 0 auto;
 	padding: 10px 0 10px 0;
+	height: 60px;
+}
+
+#logo > img {
+	float: left;
 }
 
 
@@ -76,7 +81,6 @@ ul {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;		
-	min-height: 100px;
 }
 
 .contentBox {
@@ -241,6 +245,13 @@ form .fieldWithErrors label {
 	text-align: right;
 } 
 
+#new_click_to_talk {
+	width: 360px;
+	float: right;
+} 
+#new_click_to_talk label {
+	font-weight: bold;
+}
 
 
 #errorExplanation {

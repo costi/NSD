@@ -1,5 +1,5 @@
 class UploadsController < ApplicationController
-  before_filter :authenticate, :only => [:edit, :index, :update, :download]
+  before_filter :authenticate, :except => [:new, :create, :status]
   caches_page :new
   
   def status

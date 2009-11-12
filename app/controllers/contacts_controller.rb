@@ -1,7 +1,7 @@
 class ContactsController < ApplicationController
   caches_page :new
   
-  before_filter :authenticate, :only => [:edit, :index, :update]
+  before_filter :authenticate, :except => [:new, :create]
   
   # GET /contacts
   # GET /contacts.xml

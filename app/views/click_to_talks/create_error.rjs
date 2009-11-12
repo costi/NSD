@@ -1,0 +1,1 @@
+page.replace_html 'new_click_to_talk', render('shared/click_to_talk') 

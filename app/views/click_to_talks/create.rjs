@@ -1,0 +1,1 @@
+page.replace_html 'new_click_to_talk', "Request sent successfully! We will connect to your phone right away."

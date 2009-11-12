@@ -9,7 +9,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091110165010) do
+ActiveRecord::Schema.define(:version => 20091112002614) do
+
+  create_table "click_to_talks", :force => true do |t|
+    t.string   "phone_number"
+    t.string   "when"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "phone_ext"
+    t.string   "referer"
+    t.string   "ip_address"
+    t.string   "user_agent"
+  end
 
   create_table "contacts", :force => true do |t|
     t.string   "first_name"

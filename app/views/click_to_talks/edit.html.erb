@@ -1,0 +1,24 @@
+<h1>Editing click_to_talk</h1>
+
+<% form_for(@click_to_talk) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :phone_number %><br />
+    <%= f.text_field :phone_number %>
+  </p>
+  <p>
+    <%= f.label :when %><br />
+    <%= f.text_field :when %>
+  </p>
+  <p>
+    <%= f.label :phone_ext %><br />
+    <%= f.text_field :phone_ext %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @click_to_talk %> |
+<%= link_to 'Back', click_to_talks_path %>

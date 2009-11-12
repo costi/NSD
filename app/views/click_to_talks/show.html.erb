@@ -1,0 +1,13 @@
+<p>
+  <b>Phone number:</b>
+  <%=h @click_to_talk.phone_number %>
+</p>
+
+<p>
+  <b>When:</b>
+  <%=h @click_to_talk.when %>
+</p>
+
+
+<%= link_to 'Edit', edit_click_to_talk_path(@click_to_talk) %> |
+<%= link_to 'Back', click_to_talks_path %>

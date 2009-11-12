@@ -1,0 +1,2 @@
+module ClickToTalksHelper
+end

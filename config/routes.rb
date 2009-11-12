@@ -1,4 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
+
+  map.resources :click_to_talks
+
   map.resources :uploads, :member => {:download => :get, :status => :get}
   map.send_file 'send_file.html', :controller => 'uploads', :action => 'new'
 

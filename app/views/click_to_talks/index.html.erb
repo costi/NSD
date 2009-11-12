@@ -1,0 +1,22 @@
+<h1>Listing click_to_talks</h1>
+
+<table>
+  <tr>
+    <th>Phone number</th>
+    <th>When</th>
+  </tr>
+
+<% @click_to_talks.each do |click_to_talk| %>
+  <tr>
+    <td><%=h click_to_talk.phone_number %></td>
+    <td><%=h click_to_talk.when %></td>
+    <td><%= link_to 'Show', click_to_talk %></td>
+    <td><%= link_to 'Edit', edit_click_to_talk_path(click_to_talk) %></td>
+    <td><%= link_to 'Destroy', click_to_talk, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New click_to_talk', new_click_to_talk_path %>
