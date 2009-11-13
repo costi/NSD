@@ -1,0 +1,4 @@
+# Added redirects for the old grantsigns.com website
+redirect 301 /Contact_Us.html http://www.nationalsignsanddesign.com/contact_us.html
+redirect 301 /Coupon.html http://www.nationalsignsanddesign.com/coupons.html
+
