@@ -12,3 +12,7 @@ document.observe("dom:loaded", function() {
 	} catch(err) {}
 
 });
+
+function observe_click_to_talks(){
+// TODO - add observe to add spinning wheel on submit	
+}
