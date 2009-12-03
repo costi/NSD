@@ -1,6 +1,6 @@
 class ClickToTalksController < ApplicationController
   before_filter :authenticate, :except => [:new, :create]
-
+  protect_from_forgery :except => :create # I use page caching and that breaks it. Also I don't need to worry about forgeries here. 
 
   # GET /click_to_talks
   # GET /click_to_talks.xml

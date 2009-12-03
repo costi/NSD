@@ -1,6 +1,7 @@
 class UploadsController < ApplicationController
   before_filter :authenticate, :except => [:new, :create, :status]
   caches_page :new
+  protect_from_forgery :except => :create # I use page caching and that breaks it. Also I don't need to worry about forgeries here.
   
   def status
     @upload = Upload.find(params[:id])

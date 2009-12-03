@@ -2,6 +2,7 @@ class ContactsController < ApplicationController
   caches_page :new
   
   before_filter :authenticate, :except => [:new, :create]
+  protect_from_forgery :except => :create # I use page caching and that breaks it. Also I don't need to worry about forgeries here.
   
   # GET /contacts
   # GET /contacts.xml

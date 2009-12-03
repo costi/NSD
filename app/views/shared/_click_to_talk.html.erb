@@ -9,7 +9,10 @@
 		</tr>
 		<tr>				
 			<td><%=ctt.label :when, "Call me" %></td>
-			<td colspan="3"><%=ctt.select :when, ClickToTalk::WHEN_OPTIONS %><%=ctt.submit 'Talk by Phone' %></td>
+			<td colspan="3">
+				<%=ctt.select :when, ClickToTalk::WHEN_OPTIONS %><%=ctt.submit 'Talk by Phone' %>
+				<%=image_tag 'ajax-loader.gif', :size => '16x16', :alt => 'Loading....', :style => "display: none", :id => 'ctt_spinner'%>
+			</td>
 		</tr>
 	</table>
 <%end%>

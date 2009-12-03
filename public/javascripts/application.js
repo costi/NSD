@@ -4,7 +4,8 @@ document.observe("dom:loaded", function() {
 	/* Input mask for the phone number */
 	Xaprb.InputMask.setupElementMasks();
   
-
+	show_spinner_for_click_to_talk_form_on_submit();
+	
 	/* Google analytics */
 	try {
 		var pageTracker = _gat._getTracker("UA-982444-6");
@@ -13,6 +14,9 @@ document.observe("dom:loaded", function() {
 
 });
 
-function observe_click_to_talks(){
-// TODO - add observe to add spinning wheel on submit	
+function show_spinner_for_click_to_talk_form_on_submit(){
+	Event.observe('new_click_to_talk', 'submit', function(event){
+			$('ctt_spinner').show();
+		}
+	)	
 }
